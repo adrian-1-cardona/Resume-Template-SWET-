@@ -137,6 +137,9 @@
     \resumeSubheading
       {California Polytechnic State University, San Luis Obispo}{Sep. 2025 -- May 2027}
       {Bachelor of Science in Computer Science}{San Luis Obispo, California}
+       \begin{itemize}
+        \item \textbf{GPA: 3.7/4.0} \textbar\ Cal Poly Scholars \textbar\ ColorStack
+    \end{itemize}
   \resumeSubHeadingListEnd
   \resumeSubHeadingListStart
     \resumeSubheading
@@ -144,23 +147,6 @@
       {Associate of Science in Computer Science}{Los Angeles, California}
   \resumeSubHeadingListEnd
 
-%------RELEVANT COURSEWORK-------
-\section{Relevant Coursework}
-    %\resumeSubHeadingListStart
-        \begin{multicols}{4}
-            \begin{itemize}[itemsep=-5pt, parsep=3pt]
-                \item\small Data Structures
-                \item Software Methodology
-                \item Algorithms Analysis
-                \item Database Management
-                \item Artificial Intelligence
-                \item Internet Technology
-                \item Systems Programming
-                \item Computer Architecture
-            \end{itemize}
-        \end{multicols}
-        \vspace*{2.0\multicolsep}
-    %\resumeSubHeadingListEnd
 
 
 %-----------EXPERIENCE-----------
@@ -180,9 +166,10 @@
       {Outamation}{Feb 2025 -- April 2025}
       {Extern via Extern Program}{Remote, California}
       \resumeItemListStart
-        \resumeItem{Built a mortgage-document chatbot using a Retrieval-Augmented Generation (RAG) pipeline that ingests PDFs and answers user questions, reducing the need for manual document lookup by retrieving answers directly from the source PDFs, using Python, PyPDF2, Tesseract OCR, an Ollama fine-tuned local model, and Google Colab.}
-        \resumeItem{Integrated the RAG pipeline with the \textbf{Gemini API} to automate document question-answering and information retrieval for end users, reducing manual lookup and speeding up access to key fields.}
-        \resumeItem{Tuned chunk size, overlap, and embedding settings to balance context preservation with retrieval latency, resulting in a 30\% better accuracy/performance on mortgage document queries.}
+        \resumeItem{ \textbf{Built} a Retrieval-Augmented Generation (RAG) pipeline in \textbf{Python} that answer questions from mortgage documents and to \textbf{reduce} the need for manual document lookup. \textbf{Using} PyPDF2, Tesseract OCR, inside of Google Colab.}
+        \resumeItem{\textbf{Added} the \textbf{Gemini API} to automate document question-answering and information retrieval for end users, \textbf{reducing} manual lookup and \textbf{improving} access to key fields.}
+        \resumeItem{\textbf{Improved} accuracy on mortgage document queries, resulting in a \textbf{30\%} on mortgage document queries, by \textbf{tuning} chunk size and embedding settings to reduce latency}
+         
     \resumeItemListEnd
 
     \resumeSubheading
@@ -190,8 +177,8 @@
       {College Corner Leader}{Los Angeles, California}
       \resumeItemListStart
         \resumeItem{ \textbf{Improved} math proficiency among middle and high school students, by tutoring \textbf{10} students each week, while delivering individualized instruction, targeted practice, and step-by-step skill remediation.}
-        \resumeItem{\textbf{Increased} students access to financial aid ,by supporting over \textbf{10+} students in successfully submitting FAFSA applications, \textbf{by} providing step-by-step application guidance, document prep support, and submission troubleshooting.}
-        \resumeItem{\textbf{Improved} local students confidence and clarity on how to apply and fund college by building repeatable slide decks and leading \textbf{100+} sessions over 24 months with around 5 students per workshop.}
+        \resumeItem{\textbf{Increased} students access to financial aid ,by \textbf{supporting} over \textbf{10+} students in successfully submitting FAFSA applications, \textbf{by} providing step-by-step application guidance and preparing documents.}
+        \resumeItem{\textbf{Improved} local students confidence and clarity on how to apply and fund college by \textbf{building} repeatable slide decks and leading \textbf{100+} sessions over \textbf{24 months} with around 5 students per workshop.}
     \resumeItemListEnd
     
   \resumeSubHeadingListEnd
@@ -235,7 +222,7 @@
     \resumeSubHeadingListStart
         \resumeSubheading{Guppty}{November 2025 -- Present}{Founder}{}
             \resumeItemListStart
-                \resumeItem{Achieved a 4 star fraternity ranking by the Office of Fraternity and Sorority Affairs (highest possible ranking).}
+                \resumeItem{\textbf{Built} full stack web applications for businesses. \textbf{Improving} SEO by incorporting Google Ads and HTML headers. Using HTML, CSS, and JavaScript  .}
                 \resumeItem{Managed executive board of 5 members and ran weekly meetings to oversee progress in essential parts of the chapter.}
                 \resumeItem{Led chapter of 30+ members to work towards goals that improve and promote community service, academics, and unity.}
             \resumeItemListEnd
