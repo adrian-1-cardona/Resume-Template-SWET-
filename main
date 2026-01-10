@@ -5,6 +5,7 @@
 % License : MIT
 %------------------------
 
+\usepackage{hyperref}
 \documentclass[letterpaper,11pt]{article}
 
 \usepackage{latexsym}
@@ -142,3 +143,99 @@
        \begin{itemize}
         \item \textbf{GPA: 3.5/4.0} \textbar\ Cal Poly Scholars \textbar\ ColorStack
     \end{itemize}
+    \vspace{-20pt}
+  \resumeSubHeadingListEnd
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Los Angeles Harbor College}{June. 2023 -- June 2025}
+      {Associate of Science in Computer Science}{Los Angeles, California}
+  \resumeSubHeadingListEnd
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: JavaScript, Python, Java, HTML, CSS, C, C++, TypeScript, SQL} \\
+     \textbf{Tools}{: Git, VSCode, IntelliJ, Unix, Jira, Microsoft Office, Jupyter Notebook, Vite } \\
+     \textbf{Technologies/Frameworks}{: ReactJS, TailwindCSS, NextJS, SCSS} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Foundation of California Community Colleges}{July 2025 -- Present}
+      {Research Intern}{Remote, California}
+      \resumeItemListStart
+        \resumeItem{\textbf{Delivered} \textbf{10+ data visualizations} from the Chancellor’s Office \textbf{database} by extracting and cleaning institutional charts/metrics in \textbf{Microsoft Excel}, to reveal student demographic and enrollment trends.}
+        \resumeItem{\textbf{Resolved \textbf{20+ Jira}} tickets by prioritizing intake, \textbf{clarifying} requirements, and improving on-time completion.}
+        
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Outamation}{Feb 2025 -- April 2025}
+      {Extern via Extern Program}{Remote, California}
+      \resumeItemListStart
+        \resumeItem{ \textbf{Built} a Retrieval-Augmented Generation (RAG) pipeline in \textbf{Python} that answer questions from mortgage documents and to \textbf{reduce} the need for manual document lookup. \textbf{Using} PyPDF2, Tesseract OCR, within Google Colab.}
+
+        \resumeItem{\textbf{Reduced} manual document lookup and \textbf{automated} informational retrieval process by incorporating the \textbf{Gemini API}.}
+        \resumeItem{\textbf{Improved} accuracy on mortgage document queries, resulting in a \textbf{30\%} on mortgage document queries, by \textbf{tuning} chunk size and embedding settings to reduce latency}
+         
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Toberman Neighborhood Center}{Aug 2023 -- June 2025}
+      {College Corner Leader}{Los Angeles, California}
+      \resumeItemListStart
+        \resumeItem{ \textbf{Improved} math proficiency among middle and high school students, by tutoring \textbf{10} students each week, while delivering individualized instruction, targeted practice, and step-by-step skill remediation.}
+        \resumeItem{\textbf{Increased} students access to financial aid ,by \textbf{supporting} over \textbf{10+} students in successfully submitting FAFSA applications, \textbf{by} providing step-by-step application guidance and preparing documents.}
+        \resumeItem{\textbf{Improved} local students confidence and clarity on how to apply and fund college by \textbf{building} repeatable slide decks and leading \textbf{100+} sessions over \textbf{24 months} with around 5 students per workshop.}
+    \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{\href{https://adrian-cardona.vercel.app}{My Portfolio}} $|$ \emph{JavaScript, SCSS, HTML, CSS}}{January 2026}
+          \resumeItemListStart
+            \resumeItem{\textbf{Developed} my full stack personal portfolio website. \textbf{Built} with \textbf{JavaScript},\textbf{ HTML}, and \textbf{CSS}. \textbf{Deployed} in \textbf{Vercel}.}
+          \resumeItemListEnd
+          \vspace{-25pt}
+
+          \resumeProjectHeading
+          {\textbf{One Itinerary Booking Platform} $|$ \emph{TypeScript, Vite, ReactJS, TailwindCSS}}{October 2025}
+          \resumeItemListStart
+            \resumeItem{\textbf{Designed} a sample booking platform that lets users plan and book multi-leg trips in \textbf{1} itinerary, \textbf{eliminating} separate bookings across companies}
+          \resumeItemListEnd 
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+
+%
+
+
+
+%-----------INVOLVEMENT---------------
+\section{Extracurricular}
+    \resumeSubHeadingListStart
+        \resumeSubheading{\href{https://adrian-1-cardona.github.io/gupptysitetest/}{Guppty}}{November 2025 -- Present}{Founder}{}
+            \resumeItemListStart
+                \resumeItem{\textbf{Built} full-stack websites using \textbf{HTML, CSS, and JavaScript} for businesses.}
+                \resumeItem{\textbf{Managed} and hosted domain through \textbf{DNS}. Hosted websites through \textbf{Vercel} and \textbf{Github}.}
+                \resumeItem{\textbf{Improved} local visibility by optimizing SEO by \textbf{30\%}. \textbf{Incorporated} semantic HTML headers \textbf{launched} Google Ads campaigns}
+              
+            \resumeItemListEnd
+        
+    \resumeSubHeadingListEnd
+
+
+\end{document}
