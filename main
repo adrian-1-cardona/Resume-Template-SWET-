@@ -138,7 +138,7 @@
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {California Polytechnic State University, San Luis Obispo}{Sep. 2025 -- May 2027}
+      {California Polytechnic State University, San Luis Obispo}{Sep 2025 -- May 2027}
       {Bachelor of Science in Computer Science}{San Luis Obispo, California}
        \begin{itemize}
         \item \textbf{GPA: 3.5/4.0} \textbar\ Cal Poly Scholars \textbar\ ColorStack
@@ -147,7 +147,7 @@
   \resumeSubHeadingListEnd
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Los Angeles Harbor College}{June. 2023 -- June 2025}
+      {Los Angeles Harbor College}{June 2023 -- June 2025}
       {Associate of Science in Computer Science}{Los Angeles, California}
   \resumeSubHeadingListEnd
 
@@ -170,16 +170,14 @@
 
     \resumeSubheading
       {Foundation of California Community Colleges}{July 2025 -- Present}
-      {Research Intern}{Remote, California}
+      {Research Intern}{\iffalse Remote, California \fi}
       \resumeItemListStart
         \resumeItem{\textbf{Collaborated} with \textbf{6 interns} to deliver 10+ data charts from the Chancellor’s Office \textbf{database} by extracting institutional charts/metrics in \textbf{Microsoft Excel} to \textbf{reveal} student demographic and enrollment trends.}
         \resumeItem{\textbf{Resolved \textbf{20+ Jira}} tickets by prioritizing intake, \textbf{clarifying} requirements, and improving on-time completion.}
         
       \resumeItemListEnd
 
-    \resumeSubheading
-      {Outamation}{Feb 2025 -- April 2025}
-      {Extern}{Remote, California}
+ \resumeSubheading{Outamation}{February 2025 -- April 2025}{\href{https://www.credential.net/c8717ed5-8490-4c48-b2eb-68be2469ae97#acc.N4kRZyVB}{Extern}} {\iffalse Remote, California \fi}
       \resumeItemListStart
         \resumeItem{ \textbf{Built} a Retrieval-Augmented Generation \textbf{(RAG)} pipeline in \textbf{Python} to answer queries regarding uploaded mortgage and lease documents. Incorporated the \textbf{Ollama model} and \textbf{Gemini API} to \textbf{automate} the retrieval process and \textbf{reduce} the need for manual document lookup.}
 
@@ -189,10 +187,10 @@
 
     \resumeSubheading
       {Toberman Neighborhood Center}{Aug 2023 -- June 2025}
-      {College Corner Leader}{Los Angeles, California}
+      {College Corner Leader}{\iffalse Los Angeles, California \fi}
       \resumeItemListStart
-        \resumeItem{ \textbf{Improved} math proficiency among middle and high school students. Tutored \textbf{10} students each week. \textbf{Delivering} individualized instruction, targeted practice, and step by step skill remediation.}
-        \resumeItem{\textbf{Increased} students access to financial aid. By \textbf{supporting} over \textbf{10+} students in successfully submitting FAFSA applications. \textbf{Providing} assistance in step by step application guidance and preparing documents.}
+        \resumeItem{ \textbf{Improved} math proficiency among middle and high school students. Tutored \textbf{10} students each week. \textbf{Delivered} individualized instruction, targeted practice, and step by step skill remediation.}
+        \resumeItem{\textbf{Increased} students access to financial aid. By \textbf{supporting} over \textbf{10+} students in successfully submitting FAFSA applications. \textbf{Provided} assistance in step by step application guidance and preparing documents.}
     \resumeItemListEnd
     
   \resumeSubHeadingListEnd
@@ -203,16 +201,16 @@
     \vspace{-5pt}
     \resumeSubHeadingListStart
       \resumeProjectHeading
-          {\textbf{\href{https://adrian-cardona.vercel.app}{My Portfolio}} $|$ \emph{JavaScript, SCSS, HTML, CSS}}{January 2026}
+          {\textbf{\href{https://adrian-cardona.vercel.app}{My Portfolio}} $|$ \emph{JavaScript, SCSS, HTML, CSS}}{\iffalse sept 2025 \fi}
           \resumeItemListStart
             \resumeItem{\textbf{Developed} my full stack personal portfolio website. \textbf{Built} with \textbf{JavaScript},\textbf{ HTML}, and \textbf{CSS}. \textbf{Deployed} on \textbf{Vercel}.}
           \resumeItemListEnd
           \vspace{-25pt}
 
           \resumeProjectHeading
-          {\textbf{\href{https://lovable.dev/projects/4982a7e1-1fa4-453c-b6ad-2b0d42183587}{One Itinerary Booking Platform}} $|$ \emph{TypeScript, ReactJS, TailwindCSS, Vite}}{October 2025}
+          {\textbf{\href{https://onebook-iota.vercel.app}{One Itinerary Booking Platform}} $|$ \emph{JavaScript, HTML, CSS}} {\iffalse oct 2025 \fi}
           \resumeItemListStart
-            \resumeItem{\textbf{Designed} a sample booking platform that lets users book multi-leg trips in \textbf{1} itinerary. \textbf{Eliminating} separate bookings across companies.}
+            \resumeItem{\textbf{Developed} a full stack booking platform that lets users book multi-leg trips in \textbf{1} itinerary. \textbf{Eliminating} separate bookings across companies. \textbf{Deployed} on \textbf{Vercel}.}
           \resumeItemListEnd 
     \resumeSubHeadingListEnd
 \vspace{-15pt}
@@ -228,7 +226,7 @@
         \resumeSubheading{\href{https://adrian-1-cardona.github.io/gupptysitetest/}{Guppty}}{November 2025 -- Present}{Founder}{}
             \resumeItemListStart
                 \resumeItem{\textbf{Built} full-stack websites using \textbf{HTML, CSS, and JavaScript} for businesses.}
-                \resumeItem{\textbf{Managed} and hosted domain through \textbf{DNS}. Hosted websites through \textbf{Vercel} and \textbf{Github}.}
+                \resumeItem{\textbf{Managed} domain configuration through \textbf{DNS}. \textbf{Hosted} websites through \textbf{Vercel} and \textbf{Github}.}
                 \resumeItem{\textbf{Improved} local visibility by optimizing SEO by \textbf{30\%}. \textbf{Incorporated} semantic HTML headers \textbf{launched} Google Ads campaigns}
               
             \resumeItemListEnd
