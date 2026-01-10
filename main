@@ -172,14 +172,14 @@
       {Foundation of California Community Colleges}{July 2025 -- Present}
       {Research Intern}{Remote, California}
       \resumeItemListStart
-        \resumeItem{\textbf{Delivered} \textbf{10+ data visualizations} from the Chancellor’s Office \textbf{database} by extracting and cleaning institutional charts/metrics in \textbf{Microsoft Excel}, to reveal student demographic and enrollment trends.}
+        \resumeItem{\textbf{Collaborated} with \textbf{6} interns to \textbf{deliver} \textbf{10+ data charts} from the Chancellor’s Office \textbf{database} by extracting institutional charts/metrics in \textbf{Microsoft Excel}, to reveal student demographic and enrollment trends.}
         \resumeItem{\textbf{Resolved \textbf{20+ Jira}} tickets by prioritizing intake, \textbf{clarifying} requirements, and improving on-time completion.}
         
       \resumeItemListEnd
 
     \resumeSubheading
       {Outamation}{Feb 2025 -- April 2025}
-      {Extern via Extern Program}{Remote, California}
+      {Extern}{Remote, California}
       \resumeItemListStart
         \resumeItem{ \textbf{Built} a Retrieval-Augmented Generation \textbf{(RAG)} pipeline in \textbf{Python} to answer queries regarding uploaded mortgage and lease documents. Incorporated \textbf{Ollama} and \textbf{Gemini API} to \textbf{automate} the retrieval process and \textbf{reduce} the need for manual document lookup.}
 
