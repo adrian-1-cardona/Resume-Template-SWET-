@@ -131,6 +131,8 @@
 \end{center}
 
 
+
+
 %-----------EDUCATION-----------
 \section{Education}
   \resumeSubHeadingListStart
@@ -138,96 +140,5 @@
       {California Polytechnic State University, San Luis Obispo}{Sep. 2025 -- May 2027}
       {Bachelor of Science in Computer Science}{San Luis Obispo, California}
        \begin{itemize}
-        \item \textbf{GPA: 3.7/4.0} \textbar\ Cal Poly Scholars \textbar\ ColorStack
+        \item \textbf{GPA: 3.5/4.0} \textbar\ Cal Poly Scholars \textbar\ ColorStack
     \end{itemize}
-  \resumeSubHeadingListEnd
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Los Angeles Harbor College}{June. 2023 -- June 2025}
-      {Associate of Science in Computer Science}{Los Angeles, California}
-  \resumeSubHeadingListEnd
-
-
-
-%-----------EXPERIENCE-----------
-\section{Experience}
-  \resumeSubHeadingListStart
-
-    \resumeSubheading
-      {Foundation of California Community Colleges}{July 2025 -- Present}
-      {Research Intern}{Remote, California}
-      \resumeItemListStart
-        \resumeItem{Delivered \textbf{10+ data visualizations} from the Chancellor’s Office \textbf{database} by extracting and cleaning institutional charts/metrics in \textbf{Microsoft Excel}, to reveal student demographic and enrollment trends.}
-        \resumeItem{Resolved \textbf{20+ Jira} data/request and reporting tickets by prioritizing intake, clarifying requirements, and coordinating deliverables, improving on-time completion and stakeholder responsiveness.}
-        \resumeItem{Collected actionable stakeholder feedback by facilitating \textbf{3+ student focus groups} and building surveys in \textbf{Qualtrics} , informing partner-organization recommendations and program decisions.}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {Outamation}{Feb 2025 -- April 2025}
-      {Extern via Extern Program}{Remote, California}
-      \resumeItemListStart
-        \resumeItem{ \textbf{Built} a Retrieval-Augmented Generation (RAG) pipeline in \textbf{Python} that answer questions from mortgage documents and to \textbf{reduce} the need for manual document lookup. \textbf{Using} PyPDF2, Tesseract OCR, inside of Google Colab.}
-        \resumeItem{\textbf{Added} the \textbf{Gemini API} to automate document question-answering and information retrieval for end users, \textbf{reducing} manual lookup and \textbf{improving} access to key fields.}
-        \resumeItem{\textbf{Improved} accuracy on mortgage document queries, resulting in a \textbf{30\%} on mortgage document queries, by \textbf{tuning} chunk size and embedding settings to reduce latency}
-         
-    \resumeItemListEnd
-
-    \resumeSubheading
-      {Toberman Neighborhood Center}{Aug 2023 -- June 2025}
-      {College Corner Leader}{Los Angeles, California}
-      \resumeItemListStart
-        \resumeItem{ \textbf{Improved} math proficiency among middle and high school students, by tutoring \textbf{10} students each week, while delivering individualized instruction, targeted practice, and step-by-step skill remediation.}
-        \resumeItem{\textbf{Increased} students access to financial aid ,by \textbf{supporting} over \textbf{10+} students in successfully submitting FAFSA applications, \textbf{by} providing step-by-step application guidance and preparing documents.}
-        \resumeItem{\textbf{Improved} local students confidence and clarity on how to apply and fund college by \textbf{building} repeatable slide decks and leading \textbf{100+} sessions over \textbf{24 months} with around 5 students per workshop.}
-    \resumeItemListEnd
-    
-  \resumeSubHeadingListEnd
-\vspace{-16pt}
-
-%-----------PROJECTS-----------
-\section{Projects}
-    \vspace{-5pt}
-    \resumeSubHeadingListStart
-      \resumeProjectHeading
-          {\textbf{Gym Reservation Bot} $|$ \emph{Python, Selenium, Google Cloud Console}}{January 2021}
-          \resumeItemListStart
-            \resumeItem{Developed an automatic bot using Python and Google Cloud Console to register myself for a timeslot at my school gym.}
-          \resumeItemListEnd
-          \vspace{-13pt}
-
-          \resumeProjectHeading
-          {\textbf{Transaction Management GUI} $|$ \emph{Java, Eclipse, JavaFX}}{October 2020}
-          \resumeItemListStart
-            \resumeItem{Designed a sample banking transaction system using Java to simulate the common functions of using a bank account.}
-          \resumeItemListEnd 
-    \resumeSubHeadingListEnd
-\vspace{-15pt}
-
-
-%
-%-----------PROGRAMMING SKILLS-----------
-\section{Technical Skills}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{Languages}{: Python, Java, C, HTML/CSS, JavaScript, SQL} \\
-     \textbf{Developer Tools}{: VS Code, Eclipse, Google Cloud Platform, Android Studio} \\
-     \textbf{Technologies/Frameworks}{: Linux, Jenkins, GitHub, JUnit, WordPress} \\
-    }}
- \end{itemize}
- \vspace{-16pt}
-
-
-%-----------INVOLVEMENT---------------
-\section{Leadership / Extracurricular}
-    \resumeSubHeadingListStart
-        \resumeSubheading{Guppty}{November 2025 -- Present}{Founder}{}
-            \resumeItemListStart
-                \resumeItem{\textbf{Built} full stack web applications for businesses. \textbf{Improving} SEO by incorporting Google Ads and HTML headers. Using HTML, CSS, and JavaScript  .}
-                \resumeItem{Managed executive board of 5 members and ran weekly meetings to oversee progress in essential parts of the chapter.}
-                \resumeItem{Led chapter of 30+ members to work towards goals that improve and promote community service, academics, and unity.}
-            \resumeItemListEnd
-        
-    \resumeSubHeadingListEnd
-
-
-\end{document}
