@@ -200,16 +200,16 @@
     \vspace{-5pt}
     \resumeSubHeadingListStart
       \resumeProjectHeading
-          {\textbf{\href{https://adrian-cardona.vercel.app}{Personal Portfolio Website}} $|$ \emph{JavaScript, SCSS, HTML, CSS}}{\iffalse sept 2025 \fi}
+          {\textbf{\href{https://doc-pulse.vercel.app}{Documentation Tool}} $|$ \emph{TypeScript, JavaScript, CSS}}{\iffalse sept 2025 \fi}
           \resumeItemListStart
-            \resumeItem{\textbf{Built} a full stack personal portfolio website. \textbf{Built} with \textbf{JavaScript},\textbf{ HTML}, and \textbf{CSS}. \textbf{Deployed} on \textbf{Vercel}.}
+            \resumeItem{\textbf{Built} a \textbf{full-stack} documentation tool that \textbf{receives} teams' documentation and \textbf{generates} assessment reports and dashboards. \textbf{Enabling} teams to \textbf{identify} outdated documentation and \textbf{prioritize} updates. \textbf{Deployed} on \textbf{Vercel}.}
           \resumeItemListEnd
           \vspace{-15pt}
 
           \resumeProjectHeading
           {\textbf{\href{https://onebook-iota.vercel.app}{One Itinerary Booking Platform}} $|$ \emph{JavaScript, HTML, CSS}} {\iffalse oct 2025 \fi}
           \resumeItemListStart
-            \resumeItem{\textbf{Developed} a full stack booking platform that lets users book multi-leg trips in \textbf{1} itinerary. \textbf{Eliminating} separate bookings across companies. \textbf{Deployed} on \textbf{Vercel}.}
+            \resumeItem{\textbf{Developed} a \textbf{full-stack} booking platform that lets users book multi-leg trips in \textbf{1} itinerary. \textbf{Eliminating} separate bookings across companies. \textbf{Deployed} on \textbf{Vercel}.}
           \resumeItemListEnd 
     \resumeSubHeadingListEnd
 \vspace{-15pt}
