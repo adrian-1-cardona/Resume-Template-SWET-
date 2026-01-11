@@ -5,7 +5,7 @@
 % License : MIT
 %------------------------
 
-\usepackage{hyperref}
+\usepackage{hyperref}       
 \documentclass[letterpaper,11pt]{article}
 
 \usepackage{latexsym}
@@ -31,7 +31,14 @@
 % \usepackage[sfdefault]{FiraSans}
 % \usepackage[sfdefault]{roboto}
 % \usepackage[sfdefault]{noto-sans}
+% \usepackage{fontspec}
+% \setmainfont{Times New Roman}
+% \usepackage{polyglossia}
 % \usepackage[default]{sourcesanspro}
+% \usepackage[sfdefault]{roboto}
+% \renewcommand{\familydefault}{\sfdefault}
+\usepackage[default]{lato}
+
 
 % serif
 % \usepackage{CormorantGaramond}
@@ -44,12 +51,9 @@
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 
-% Adjust margins
-\addtolength{\oddsidemargin}{-0.6in}
-\addtolength{\evensidemargin}{-0.5in}
-\addtolength{\textwidth}{1.19in}
-\addtolength{\topmargin}{-.7in}
-\addtolength{\textheight}{1.4in}
+\usepackage[margin=0.5in,includehead]{geometry}
+\setlength{\headheight}{14pt}
+
 
 \urlstyle{same}
 
@@ -124,11 +128,21 @@
 % \end{tabular*}
 
 \begin{center}
-    {\Huge \scshape Adrian Cardona} \\ \vspace{5pt}
-    \small \raisebox{-0.1\height}\faPhone\ 310-489-6795 ~ \href{mailto:x@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{cardona.adrian.1029@gmail.com}} ~ 
-    \href{https://linkedin.com/in//}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/adrian-cardona/}}  ~
-    \href{https://github.com/}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/adrian-1-cardona}}
-    \vspace{-8pt}
+{\Huge \scshape Adrian Cardona}\\[5pt]
+
+\footnotesize
+\makebox[\textwidth][c]{%
+\faPhone\ 310-489-6795\quad
+\faEnvelope\ \href{mailto:cardona.adrian.1029@gmail.com}{cardona.adrian.1029@gmail.com}\quad
+\faLinkedin\ \href{https://linkedin.com/in/adrian-cardona/}{linkedin.com/in/adrian-cardona/}\quad
+\faGithub\ \href{https://github.com/adrian-1-cardona}{github.com/adrian-1-cardona}%
+}
+\normalsize
+\vspace{-8pt}
+
+
+
+
 \end{center}
 
 
@@ -138,7 +152,7 @@
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {California Polytechnic State University, San Luis Obispo}{Sep 2025 -- May 2027}
+      {California Polytechnic State University, San Luis Obispo}{September 2025 -- May 2027}
       {Bachelor of Science in Computer Science}{San Luis Obispo, California}
        \begin{itemize}
         \item \textbf{GPA: 3.5/4.0} \textbar\ Cal Poly Scholars \textbar\ ColorStack
@@ -155,9 +169,9 @@
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: JavaScript, Python, Java, HTML, CSS, C, C++, TypeScript, SQL} \\
-     \textbf{Tools}{: Git, VSCode, IntelliJ, Unix, Jira, Microsoft Office, Jupyter Notebook, Vite } \\
-     \textbf{Technologies/Frameworks}{: ReactJS, TailwindCSS, NextJS, SCSS} \\
+     \textbf{Languages}{: JavaScript, Python, TypeScript, Java, HTML, CSS, C, C++, SQL} \\
+     \textbf{Tools}{: Git, GitHub, CI/CD pipeline, VSCode, IntelliJ, Unix, Jira, Microsoft Office, Jupyter Notebook, Vite } \\
+     \textbf{Technologies/Frameworks}{: ReactJS, TailwindCSS, NextJS, NodeJS, SCSS} \\
     }}
  \end{itemize}
  \vspace{-16pt}
@@ -185,7 +199,7 @@
     \resumeItemListEnd
 
     \resumeSubheading
-      {Toberman Neighborhood Center}{Aug 2023 -- June 2025}
+      {Toberman Neighborhood Center}{August 2023 -- June 2025}
       {College Corner Leader}{Los Angeles, California}
       \resumeItemListStart
         \resumeItem{ \textbf{Improved} math proficiency among middle and high school students. Tutored \textbf{10} students each week. \textbf{Delivered} individualized instruction, targeted practice, and skill remediation.}
