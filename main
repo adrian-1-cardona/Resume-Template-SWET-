@@ -170,27 +170,26 @@
 
     \resumeSubheading
       {Foundation of California Community Colleges}{July 2025 -- Present}
-      {Research Intern}{\iffalse Remote, California \fi}
+      {Research Intern}{Remote, California}
       \resumeItemListStart
         \resumeItem{\textbf{Collaborated} with \textbf{6 interns} to deliver 10+ data charts from the Chancellor’s Office \textbf{database} by extracting institutional charts/metrics in \textbf{Microsoft Excel} to \textbf{reveal} student demographic and enrollment trends.}
         \resumeItem{\textbf{Resolved \textbf{20+ Jira}} tickets by prioritizing intake, \textbf{clarifying} requirements, and improving on-time completion.}
         
       \resumeItemListEnd
 
- \resumeSubheading{Outamation}{February 2025 -- April 2025}{\href{https://www.credential.net/c8717ed5-8490-4c48-b2eb-68be2469ae97#acc.N4kRZyVB}{Extern}} {\iffalse Remote, California \fi}
+ \resumeSubheading{Outamation}{February 2025 -- April 2025}{\href{https://www.credential.net/c8717ed5-8490-4c48-b2eb-68be2469ae97#acc.N4kRZyVB}{Extern}} {Remote, California}
       \resumeItemListStart
         \resumeItem{ \textbf{Built} a Retrieval-Augmented Generation \textbf{(RAG)} pipeline in \textbf{Python} to answer queries regarding uploaded mortgage and lease documents. Incorporated the \textbf{Ollama model} and \textbf{Gemini API} to \textbf{automate} the retrieval process and \textbf{reduce} the need for manual document lookup.}
-
-        \resumeItem{\textbf{Improved} accuracy by 30\% on mortgage document queries. By \textbf{fine-tuning} the chunk size and embeddings parameters to reduce latency.}
+        \resumeItem{\textbf{Improved} accuracy by 30\% on mortgage document queries. By \textbf{fine-tuning} the chunk size and embeddings parameters to \textbf{reduce} latency.}
          
     \resumeItemListEnd
 
     \resumeSubheading
       {Toberman Neighborhood Center}{Aug 2023 -- June 2025}
-      {College Corner Leader}{\iffalse Los Angeles, California \fi}
+      {College Corner Leader}{Los Angeles, California}
       \resumeItemListStart
-        \resumeItem{ \textbf{Improved} math proficiency among middle and high school students. Tutored \textbf{10} students each week. \textbf{Delivered} individualized instruction, targeted practice, and step by step skill remediation.}
-        \resumeItem{\textbf{Increased} students access to financial aid. By \textbf{supporting} over \textbf{10+} students in successfully submitting FAFSA applications. \textbf{Provided} assistance in step by step application guidance and preparing documents.}
+        \resumeItem{ \textbf{Improved} math proficiency among middle and high school students. Tutored \textbf{10} students each week. \textbf{Delivered} individualized instruction, targeted practice, and skill remediation.}
+        \resumeItem{\textbf{Increased} students' access to financial aid. By \textbf{supporting} over \textbf{10+} students in successfully submitting FAFSA applications. \textbf{Assisted} in step-by-step application guidance and prepared documents.}
     \resumeItemListEnd
     
   \resumeSubHeadingListEnd
@@ -201,11 +200,11 @@
     \vspace{-5pt}
     \resumeSubHeadingListStart
       \resumeProjectHeading
-          {\textbf{\href{https://adrian-cardona.vercel.app}{My Portfolio}} $|$ \emph{JavaScript, SCSS, HTML, CSS}}{\iffalse sept 2025 \fi}
+          {\textbf{\href{https://adrian-cardona.vercel.app}{Personal Portfolio Website}} $|$ \emph{JavaScript, SCSS, HTML, CSS}}{\iffalse sept 2025 \fi}
           \resumeItemListStart
-            \resumeItem{\textbf{Developed} my full stack personal portfolio website. \textbf{Built} with \textbf{JavaScript},\textbf{ HTML}, and \textbf{CSS}. \textbf{Deployed} on \textbf{Vercel}.}
+            \resumeItem{\textbf{Built} a full stack personal portfolio website. \textbf{Built} with \textbf{JavaScript},\textbf{ HTML}, and \textbf{CSS}. \textbf{Deployed} on \textbf{Vercel}.}
           \resumeItemListEnd
-          \vspace{-25pt}
+          \vspace{-15pt}
 
           \resumeProjectHeading
           {\textbf{\href{https://onebook-iota.vercel.app}{One Itinerary Booking Platform}} $|$ \emph{JavaScript, HTML, CSS}} {\iffalse oct 2025 \fi}
@@ -226,8 +225,11 @@
         \resumeSubheading{\href{https://adrian-1-cardona.github.io/gupptysitetest/}{Guppty}}{November 2025 -- Present}{Founder}{}
             \resumeItemListStart
                 \resumeItem{\textbf{Built} full-stack websites using \textbf{HTML, CSS, and JavaScript} for businesses.}
-                \resumeItem{\textbf{Managed} domain configuration through \textbf{DNS}. \textbf{Hosted} websites through \textbf{Vercel} and \textbf{Github}.}
-                \resumeItem{\textbf{Improved} local visibility by optimizing SEO by \textbf{30\%}. \textbf{Incorporated} semantic HTML headers \textbf{launched} Google Ads campaigns}
+                \resumeItem{\textbf{Managed} domain configuration and \textbf{hosted} websites through \textbf{Vercel} and \textbf{GitHub Pages}.}
+                \resumeItem{\textbf{Increased} visibility by \textbf{30\%} by updating \textbf{HTML} head tags.}
+                \resumeItem
+                {\textbf{Launched} Google Ads campaigns to \textbf{track} conversions.}
+                
               
             \resumeItemListEnd
         
