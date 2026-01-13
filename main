@@ -5,24 +5,21 @@
 % License : MIT
 %------------------------
 
-\usepackage{hyperref}       
+  
 \documentclass[letterpaper,11pt]{article}
 
 \usepackage{latexsym}
-\usepackage[empty]{fullpage}
 \usepackage{titlesec}
 \usepackage{marvosym}
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{verbatim}
 \usepackage{enumitem}
 \usepackage[hidelinks]{hyperref}
-\usepackage{fancyhdr}
+
 \usepackage[english]{babel}
-\usepackage{tabularx}
-\usepackage{fontawesome5}
-\usepackage{multicol}
-\setlength{\multicolsep}{-3.0pt}
-\setlength{\columnsep}{-1pt}
+
+%\setlength{\multicolsep}{-3.0pt}
+%\setlength{\columnsep}{-1pt}
 \input{glyphtounicode}
 
 
@@ -41,18 +38,11 @@
 
 
 % serif
-% \usepackage{CormorantGaramond}
-% \usepackage{charter}
 
 
-\pagestyle{fancy}
-\fancyhf{} % clear all header and footer fields
-\fancyfoot{}
-\renewcommand{\headrulewidth}{0pt}
-\renewcommand{\footrulewidth}{0pt}
 
-\usepackage[margin=0.5in,includehead]{geometry}
-\setlength{\headheight}{14pt}
+
+\usepackage[margin=0.5in]{geometry}
 
 
 \urlstyle{same}
@@ -62,88 +52,78 @@
 \setlength{\tabcolsep}{0in}
 
 % Sections formatting
+%\titleformat{\section}{
+%  \vspace{-4pt}\scshape\raggedright\large\bfseries
+%}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
 \titleformat{\section}{
   \vspace{-4pt}\scshape\raggedright\large\bfseries
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+}{}{0em}{}[\color{black}\titlerule \vspace{-2pt}]
+
 
 % Ensure that generate pdf is machine readable/ATS parsable
 \pdfgentounicode=1
 
 %-------------------------
 % Custom commands
-\newcommand{\resumeItem}[1]{
-  \item\small{
-    {#1 \vspace{-2pt}}
-  }
-}
+%-------------------------
+% Custom commands (ATS / Workday friendly)
 
-\newcommand{\classesList}[4]{
-    \item\small{
-        {#1 #2 #3 #4 \vspace{-2pt}}
-  }
-}
+% Tighten lists globally (better than sprinkling \vspace everywhere)
+\usepackage{enumitem}
+\setlist[itemize]{noitemsep, topsep=0.5pt, parsep=0pt, partopsep=0pt}
 
+\newcommand{\resumeItem}[1]{\item \small{#1}}
+
+\newcommand{\classesList}[4]{\item \small{#1 #2 #3 #4}}
+
+% Subheading WITHOUT tabular (prevents Workday column scrambling)
 \newcommand{\resumeSubheading}[4]{
-  \vspace{-2pt}\item
-    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & \textbf{\small #2} \\
-      \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-7pt}
+  \item
+  \textbf{#1}\hfill \textbf{\small #2}\\
+  \textit{\small #3}\hfill \textit{\small #4}
 }
 
 \newcommand{\resumeSubSubheading}[2]{
-    \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textit{\small#1} & \textit{\small #2} \\
-    \end{tabular*}\vspace{-7pt}
+  \item
+  \textit{\small #1}\hfill \textit{\small #2}
 }
 
+% Project heading: explicitly mark as Project (prevents parsing as Experience)
 \newcommand{\resumeProjectHeading}[2]{
-    \item
-    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
-      \small#1 & \textbf{\small #2}\\
-    \end{tabular*}\vspace{-7pt}
+  \item
+  \textbf{#1}  \hfill \emph{\small #2}
 }
-
-\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
 
 \renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0in,label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeItemListEnd}{\end{itemize}}
+%-------------------------
+
 
 %-------------------------------------------
 %%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 \begin{document}
+\pagenumbering{gobble}
 
 %----------HEADING----------
-% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
-%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
-% \end{tabular*}
 
 \begin{center}
-{\Huge \scshape Adrian Cardona}\\[5pt]
-
+{\Huge \scshape Adrian Cardona}\\[4pt]
 \footnotesize
-\makebox[\textwidth][c]{%
-\faPhone\ 310-489-6795\quad
-\faEnvelope\ \href{mailto:cardona.adrian.1029@gmail.com}{cardona.adrian.1029@gmail.com}\quad
-\faLinkedin\ \href{https://linkedin.com/in/adrian-cardona/}{linkedin.com/in/adrian-cardona/}\quad
-\faGithub\ \href{https://github.com/adrian-1-cardona}{github.com/adrian-1-cardona}%
-}
-\normalsize
-\vspace{-8pt}
-
-
-
-
+310-489-6795 \quad
+cardona.adrian.1029@gmail.com \quad
+linkedin.com/in/adrian-cardona/ \quad
+github.com/adrian-1-cardona
 \end{center}
+\vspace{-6pt}
 
 
 
@@ -152,102 +132,99 @@
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {California Polytechnic State University, San Luis Obispo}{September 2025 -- May 2027}
+      {California Polytechnic State University San Luis Obispo}{September 2025 -- May 2027}
       {Bachelor of Science in Computer Science}{San Luis Obispo, California}
-       \begin{itemize}
-        \item \textbf{GPA: 3.5/4.0} \textbar\ Cal Poly Scholars \textbar\ ColorStack
-    \end{itemize}
-    \vspace{-20pt}
+    
+       \resumeItemListStart
+  \resumeItem{\textbf{GPA: 3.5/4.0} \textbar\ Cal Poly Scholars}
+\resumeItemListEnd
+
   \resumeSubHeadingListEnd
+  
   \resumeSubHeadingListStart
     \resumeSubheading
       {Los Angeles Harbor College}{June 2023 -- June 2025}
       {Associate of Science in Computer Science}{Los Angeles, California}
+      
   \resumeSubHeadingListEnd
 
 %-----------PROGRAMMING SKILLS-----------
-\section{Technical Skills}
+\section{Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
      \textbf{Languages}{: JavaScript, Python, TypeScript, Java, HTML, CSS, C, C++, SQL} \\
-     \textbf{Tools}{: Git, GitHub, CI/CD pipeline, VSCode, IntelliJ, Unix, Jira, Microsoft Office, Jupyter Notebook, Vite } \\
+     \textbf{Tools}{: Git, GitHub, VSCode, IntelliJ, Unix, Jira, Microsoft Office, Jupyter Notebook, Vite } \\
      \textbf{Technologies/Frameworks}{: ReactJS, TailwindCSS, NextJS, NodeJS, SCSS} \\
     }}
  \end{itemize}
- \vspace{-16pt}
+
 
 
 
 %-----------EXPERIENCE-----------
+%-----------EXPERIENCE-----------
 \section{Experience}
-  \resumeSubHeadingListStart
+\resumeSubHeadingListStart
 
-    \resumeSubheading
-      {Foundation of California Community Colleges}{July 2025 -- Present}
-      {Research Intern}{Remote, California}
-      \resumeItemListStart
-        \resumeItem{\textbf{Collaborated} with \textbf{6 interns} to deliver 10+ data charts from the Chancellor’s Office \textbf{database} by extracting institutional charts/metrics in \textbf{Microsoft Excel} to \textbf{reveal} student demographic and enrollment trends.}
-        \resumeItem{\textbf{Resolved \textbf{20+ Jira}} tickets by prioritizing intake, \textbf{clarifying} requirements, and improving on-time completion.}
-        
-      \resumeItemListEnd
+\resumeSubheading
+  {Foundation of California Community Colleges}{July 2025 -- Present}
+  {Research Intern}{Remote, California}
+\resumeItemListStart
+  \resumeItem{\textbf{Collaborated} with \textbf{6 interns} to deliver 10+ data charts from the Chancellor’s Office \textbf{database} by extracting institutional charts/metrics in \textbf{Microsoft Excel} to \textbf{reveal} student demographic and enrollment trends.}
+  \resumeItem{\textbf{Resolved} \textbf{20+ Jira} tickets by prioritizing intake, \textbf{clarifying} requirements, and improving on-time completion.}
+\resumeItemListEnd
 
- \resumeSubheading{Outamation}{February 2025 -- April 2025}{\href{https://www.credential.net/c8717ed5-8490-4c48-b2eb-68be2469ae97#acc.N4kRZyVB}{Extern}} {Remote, California}
-      \resumeItemListStart
-        \resumeItem{ \textbf{Built} a Retrieval-Augmented Generation \textbf{(RAG)} pipeline in \textbf{Python} to answer queries regarding uploaded mortgage and lease documents. Incorporated the \textbf{Ollama model} and \textbf{Gemini API} to \textbf{automate} the retrieval process and \textbf{reduce} the need for manual document lookup.}
-        \resumeItem{\textbf{Improved} accuracy by 30\% on mortgage document queries. By \textbf{fine-tuning} the chunk size and embeddings parameters to \textbf{reduce} latency.}
-         
-    \resumeItemListEnd
+\resumeSubheading
+  {Outamation}{February 2025 -- April 2025}
+  {Data Extraction Externship}{Remote, California}
+\resumeItemListStart
+  \resumeItem{\textbf{Built} a Retrieval-Augmented Generation \textbf{(RAG)} pipeline in \textbf{Python} to answer queries regarding uploaded mortgage and lease documents. Incorporated the \textbf{Ollama Large Language Model (LLM)} and \textbf{Gemini API} to \textbf{automate} retrieval and \textbf{reduce} manual document lookup.}
+  \resumeItem{\textbf{Improved} accuracy by 30\% on mortgage document queries by \textbf{fine-tuning} chunk size and embedding parameters to \textbf{reduce} latency.}
+\resumeItemListEnd
 
-    \resumeSubheading
-      {Toberman Neighborhood Center}{August 2023 -- June 2025}
-      {College Corner Leader}{Los Angeles, California}
-      \resumeItemListStart
-        \resumeItem{ \textbf{Improved} math proficiency among middle and high school students. Tutored \textbf{10} students each week. \textbf{Delivered} individualized instruction, targeted practice, and skill remediation.}
-        \resumeItem{\textbf{Increased} students' access to financial aid. By \textbf{supporting} over \textbf{10+} students in successfully submitting FAFSA applications. \textbf{Assisted} in step-by-step application guidance and prepared documents.}
-    \resumeItemListEnd
-    
-  \resumeSubHeadingListEnd
-\vspace{-16pt}
+\resumeSubheading
+  {Toberman Neighborhood Center}{August 2023 -- June 2025}
+  {College Corner Leader}{Los Angeles, California}
+\resumeItemListStart
+  \resumeItem{\textbf{Improved} math proficiency among middle and high school students; tutored \textbf{10} students weekly; \textbf{delivered} individualized instruction, targeted practice, and skill remediation.}
+  \resumeItem{\textbf{Increased} students’ access to financial aid by \textbf{supporting} \textbf{10+} FAFSA submissions; \textbf{assisted} with step-by-step guidance and prepared documents.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
 
 %-----------PROJECTS-----------
+%-----------PROJECTS-----------
 \section{Projects}
-    \vspace{-5pt}
-    \resumeSubHeadingListStart
-      \resumeProjectHeading
-          {\textbf{\href{https://doc-pulse.vercel.app}{Documentation Tool}} $|$ \emph{TypeScript, JavaScript, CSS}}{\iffalse sept 2025 \fi}
-          \resumeItemListStart
-            \resumeItem{\textbf{Built} a \textbf{full-stack} documentation tool that \textbf{receives} teams' documentation and \textbf{generates} assessment reports and dashboards. \textbf{Enabling} teams to \textbf{identify} outdated documentation and \textbf{prioritize} updates. \textbf{Deployed} on \textbf{Vercel}.}
-          \resumeItemListEnd
-          \vspace{-15pt}
+\resumeSubHeadingListStart
 
-          \resumeProjectHeading
-          {\textbf{\href{https://onebook-iota.vercel.app}{One Itinerary Booking Platform}} $|$ \emph{JavaScript, HTML, CSS}} {\iffalse oct 2025 \fi}
-          \resumeItemListStart
-            \resumeItem{\textbf{Developed} a \textbf{full-stack} booking platform that lets users book multi-leg trips in \textbf{1} itinerary. \textbf{Eliminating} separate bookings across companies. \textbf{Deployed} on \textbf{Vercel}.}
-          \resumeItemListEnd 
-    \resumeSubHeadingListEnd
-\vspace{-15pt}
+\resumeProjectHeading{Documentation Tool}{TypeScript, JavaScript, CSS}
 
+\resumeItemListStart
+  \resumeItem{\textbf{Built} a \textbf{full-stack} documentation tool that \textbf{receives} teams' documentation and \textbf{generates} assessment reports and dashboards, enabling teams to \textbf{identify} outdated documentation and \textbf{prioritize} updates. \textbf{Deployed} on \textbf{Vercel}.}
+\resumeItemListEnd
 
-%
+\resumeProjectHeading{One Itinerary Booking Platform}{JavaScript, HTML, CSS}
 
+\resumeItemListStart
+  \resumeItem{\textbf{Developed} a \textbf{full-stack} booking platform that lets users book multi-leg trips in \textbf{1} itinerary, eliminating separate bookings across companies. \textbf{Deployed} on \textbf{Vercel}.}
+\resumeItemListEnd
 
+\resumeSubHeadingListEnd  % <-- THIS WAS MISSING
 
-%-----------INVOLVEMENT---------------
-\section{Extracurricular}
-    \resumeSubHeadingListStart
-        \resumeSubheading{\href{https://adrian-1-cardona.github.io/gupptysitetest/}{Guppty}}{November 2025 -- Present}{Founder}{}
-            \resumeItemListStart
-                \resumeItem{\textbf{Built} full-stack websites using \textbf{HTML, CSS, and JavaScript} for businesses.}
-                \resumeItem{\textbf{Managed} domain configuration and \textbf{hosted} websites through \textbf{Vercel} and \textbf{GitHub Pages}.}
-                \resumeItem{\textbf{Increased} visibility by \textbf{30\%} by updating \textbf{HTML} head tags.}
-                \resumeItem
-                {\textbf{Launched} Google Ads campaigns to \textbf{track} conversions.}
-                
-              
-            \resumeItemListEnd
-        
-    \resumeSubHeadingListEnd
+%-----------EXTRACURRICULARS-----------
 
+%-----------EXTRACURRICULARS-----------
+\section{Extracurriculars}
+\resumeSubHeadingListStart
 
+\resumeSubheading{Guppty}{November 2025 -- Present}{Founder}{}
+\resumeItemListStart
+  \resumeItem{\textbf{Built} full-stack websites for small businesses using \textbf{HTML, CSS, and JavaScript}.}
+  \resumeItem{\textbf{Maintained} clients' websites using \textbf{Git}-based deployments on \textbf{Vercel}, including custom domain configuration (\textbf{DNS}).}
+  \resumeItem{\textbf{Increased} website visibility by \textbf{30\%} by updating \textbf{HTML} head tags.}
+  \resumeItem{\textbf{Launched} and managed Google Ads campaigns to \textbf{track} conversions.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
 \end{document}
