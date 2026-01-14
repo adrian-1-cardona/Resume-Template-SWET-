@@ -136,7 +136,7 @@ github.com/adrian-1-cardona
       {Bachelor of Science in Computer Science}{San Luis Obispo, California}
     
        \resumeItemListStart
-  \resumeItem{\textbf{GPA: 3.5/4.0} \textbar\ Cal Poly Scholars}
+  \resumeItem{\textbf{GPA: 3.5/4.0} }
 \resumeItemListEnd
 
   \resumeSubHeadingListEnd
@@ -148,29 +148,25 @@ github.com/adrian-1-cardona
       
   \resumeSubHeadingListEnd
 
-%-----------PROGRAMMING SKILLS-----------
-\section{Skills}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{Languages}{: JavaScript, Python, TypeScript, Java, HTML, CSS, C, C++, SQL} \\
-     \textbf{Tools}{: Git, GitHub, VSCode, IntelliJ, Unix, Jira, Microsoft Office, Jupyter Notebook, Vite } \\
-     \textbf{Technologies/Frameworks}{: ReactJS, TailwindCSS, NextJS, NodeJS, SCSS} \\
-    }}
- \end{itemize}
 
-
-
-
-%-----------EXPERIENCE-----------
 %-----------EXPERIENCE-----------
 \section{Experience}
 \resumeSubHeadingListStart
+\resumeSubheading
+  {Guppty}{November 2025 -- Present}
+  {Founder}{Los Angeles, California}
+\resumeItemListStart
+  \resumeItem{\textbf{Built} full-stack websites using \textbf{HTML}, \textbf{CSS}, and \textbf{JavaScript} for businesses. Improved website visibility by \textbf{30\%} by updating HTML tags and launching Google Ads campaigns to track conversions.}
+  \resumeItem{\textbf{Maintained} clients’ websites through \textbf{Git}-based deployments such as \textbf{GitHub Actions} and \textbf{Vercel}. Set up and configured the custom domain configuration \textbf{(DNS)}.}
+  
+  
+\resumeItemListEnd
 
 \resumeSubheading
   {Foundation of California Community Colleges}{July 2025 -- Present}
   {Research Intern}{Remote, California}
 \resumeItemListStart
-  \resumeItem{\textbf{Collaborated} with \textbf{6 interns} to deliver 10+ data charts from the Chancellor’s Office \textbf{database} by extracting institutional charts/metrics in \textbf{Microsoft Excel} to \textbf{reveal} student demographic and enrollment trends.}
+  \resumeItem{\textbf{Collaborated} with \textbf{6 interns} to deliver 10+ data charts from the Chancellor’s Office \textbf{database} by extracting institutional charts and metrics in \textbf{Microsoft Excel} to \textbf{reveal} student demographic and enrollment trends.}
   \resumeItem{\textbf{Resolved} \textbf{20+ Jira} tickets by prioritizing intake, \textbf{clarifying} requirements, and improving on-time completion.}
 \resumeItemListEnd
 
@@ -186,14 +182,14 @@ github.com/adrian-1-cardona
   {Toberman Neighborhood Center}{August 2023 -- June 2025}
   {College Corner Leader}{Los Angeles, California}
 \resumeItemListStart
-  \resumeItem{\textbf{Improved} math proficiency among middle and high school students; tutored \textbf{10} students weekly; \textbf{delivered} individualized instruction, targeted practice, and skill remediation.}
-  \resumeItem{\textbf{Increased} students’ access to financial aid by \textbf{supporting} \textbf{10+} FAFSA submissions; \textbf{assisted} with step-by-step guidance and prepared documents.}
+  \resumeItem{\textbf{Improved} math proficiency among middle and high school students; tutored \textbf{10} students weekly. \textbf{Delivered} individualized instruction, targeted practice, and skill remediation.}
+  \resumeItem{\textbf{Increased} students’ access to financial aid by \textbf{supporting} \textbf{10+} FAFSA submissions. \textbf{Assisted} with step-by-step guidance and prepared documents.}
 \resumeItemListEnd
 
 \resumeSubHeadingListEnd
 
 
-%-----------PROJECTS-----------
+
 %-----------PROJECTS-----------
 \section{Projects}
 \resumeSubHeadingListStart
@@ -201,30 +197,26 @@ github.com/adrian-1-cardona
 \resumeProjectHeading{Documentation Tool}{TypeScript, JavaScript, CSS}
 
 \resumeItemListStart
-  \resumeItem{\textbf{Built} a \textbf{full-stack} documentation tool that \textbf{receives} teams' documentation and \textbf{generates} assessment reports and dashboards, enabling teams to \textbf{identify} outdated documentation and \textbf{prioritize} updates. \textbf{Deployed} on \textbf{Vercel}.}
+  \resumeItem{\textbf{Built} a \textbf{full-stack} documentation tool using \textbf{TypeScript}, \textbf{JavaScript}, and \textbf{CSS} that \textbf{receives} teams' documentation and \textbf{generates} assessment reports and dashboards, enabling teams to \textbf{identify} outdated documentation and \textbf{prioritize} updates. \textbf{Deployed} on \textbf{Vercel}.}
 \resumeItemListEnd
 
 \resumeProjectHeading{One Itinerary Booking Platform}{JavaScript, HTML, CSS}
 
 \resumeItemListStart
-  \resumeItem{\textbf{Developed} a \textbf{full-stack} booking platform that lets users book multi-leg trips in \textbf{1} itinerary, eliminating separate bookings across companies. \textbf{Deployed} on \textbf{Vercel}.}
+  \resumeItem{\textbf{Developed} a \textbf{full-stack} booking platform using \textbf{HTML}, \textbf{CSS}, and \textbf{JavaScript} that lets users book multi-leg trips in \textbf{1} itinerary, eliminating separate bookings across companies. \textbf{Deployed} on \textbf{Vercel}.}
 \resumeItemListEnd
 
 \resumeSubHeadingListEnd  % <-- THIS WAS MISSING
 
 %-----------EXTRACURRICULARS-----------
+\section{Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: JavaScript, Python, TypeScript, Java, HTML, CSS, C, C++, SQL} \\
+     \textbf{Tools}{: Git, GitHub, VSCode, IntelliJ, Unix, Jira, Microsoft Office, Jupyter Notebook, Vite } \\
+     \textbf{Technologies/Frameworks}{: ReactJS, TailwindCSS, NextJS, NodeJS, SCSS} \\
+    }}
+ \end{itemize}
 
-%-----------EXTRACURRICULARS-----------
-\section{Extracurriculars}
-\resumeSubHeadingListStart
 
-\resumeSubheading{Guppty}{November 2025 -- Present}{Founder}{}
-\resumeItemListStart
-  \resumeItem{\textbf{Built} full-stack websites for small businesses using \textbf{HTML, CSS, and JavaScript}.}
-  \resumeItem{\textbf{Maintained} clients' websites using \textbf{Git}-based deployments on \textbf{Vercel}, including custom domain configuration (\textbf{DNS}).}
-  \resumeItem{\textbf{Increased} website visibility by \textbf{30\%} by updating \textbf{HTML} head tags.}
-  \resumeItem{\textbf{Launched} and managed Google Ads campaigns to \textbf{track} conversions.}
-\resumeItemListEnd
-
-\resumeSubHeadingListEnd
 \end{document}
