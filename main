@@ -154,7 +154,7 @@ github.com/adrian-1-cardona
 \resumeSubHeadingListStart
 \resumeSubheading
   {Guppty}{November 2025 -- Present}
-  {Founder}{Los Angeles, California}
+  {Founder}{Remote, California}
 \resumeItemListStart
   \resumeItem{\textbf{Built} full-stack websites using \textbf{HTML}, \textbf{CSS}, and \textbf{JavaScript} for businesses. Improved website visibility by \textbf{30\%} by updating HTML tags and launching Google Ads campaigns to track conversions.}
   \resumeItem{\textbf{Maintained} clients’ websites through \textbf{Git}-based deployments such as \textbf{GitHub Actions} and \textbf{Vercel}. Set up and configured the custom domain configuration \textbf{(DNS)}.}
