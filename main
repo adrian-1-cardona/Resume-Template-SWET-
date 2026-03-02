@@ -172,7 +172,7 @@ github.com/adrian-1-cardona
 
 \resumeSubheading
   {Outamation}{February 2025 -- April 2025}
-  {Data Extraction Externship}{Remote, California}
+  {Extern}{Remote, California}
 \resumeItemListStart
   \resumeItem{\textbf{Built} a Retrieval-Augmented Generation \textbf{(RAG)} pipeline in \textbf{Python} to answer queries regarding uploaded mortgage and lease documents. Incorporated the \textbf{Ollama Large Language Model (LLM)} and \textbf{Gemini API} to \textbf{automate} retrieval and \textbf{reduce} manual document lookup.}
   \resumeItem{\textbf{Improved} accuracy by 30\% on mortgage document queries by \textbf{fine-tuning} chunk size and embedding parameters to \textbf{reduce} latency.}
