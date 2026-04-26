@@ -62,3 +62,158 @@
 }{}{0em}{}[\color{black}\titlerule \vspace{-2pt}]
 
 
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+%-------------------------
+% Custom commands (ATS / Workday friendly)
+
+% Tighten lists globally (better than sprinkling \vspace everywhere)
+\usepackage{enumitem}
+\setlist[itemize]{noitemsep, topsep=0.5pt, parsep=0pt, partopsep=0pt}
+
+\newcommand{\resumeItem}[1]{\item \small{#1}}
+
+\newcommand{\classesList}[4]{\item \small{#1 #2 #3 #4}}
+
+% Subheading WITHOUT tabular (prevents Workday column scrambling)
+\newcommand{\resumeSubheading}[4]{
+  \item
+  \textbf{#1}\hfill \textbf{\small #2}\\
+  \textit{\small #3}\hfill \textit{\small #4}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+  \item
+  \textit{\small #1}\hfill \textit{\small #2}
+}
+
+% Project heading: explicitly mark as Project (prevents parsing as Experience)
+\newcommand{\resumeProjectHeading}[2]{
+  \item
+  \textbf{#1}  \hfill \emph{\small #2}
+}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0in,label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeItemListEnd}{\end{itemize}}
+%-------------------------
+
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+\pagenumbering{gobble}
+
+%----------HEADING----------
+
+\begin{center}
+{\Huge \scshape \textbf{Adrian Cardona}}\\[4pt]
+\footnotesize
+310-489-6795 \quad
+cardona.adrian.1029@gmail.com \quad
+linkedin.com/in/adrian-cardona/ \quad
+github.com/adrian-1-cardona
+\end{center}
+\vspace{-6pt}
+
+
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {California Polytechnic State University San Luis Obispo}{September 2025 -- May 2027}
+      {Bachelor of Science in Computer Science}{San Luis Obispo, California}
+    
+       \resumeItemListStart
+  \resumeItem{\textbf{GPA: 3.5/4.0} }
+\resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+  
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Los Angeles Harbor College}{June 2023 -- June 2025}
+      {Associate of Science in Computer Science}{Los Angeles, California}
+      \resumeItemListStart
+  \resumeItem{\textbf{GPA: 3.7/4.0} }
+    \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+\resumeSubheading
+  {Cal Poly Bailey College of Science and Mathematics}{Jan 2026 -- Present}
+  {Web Development Intern}{San Luis Obispo, California}
+\resumeItemListStart
+  \resumeItem{Automated website migration audits for 1,000+ departmental subdomains by building a Python crawler that evaluated URLs against college-defined migration requirements.}
+  \resumeItem{Improved review efficiency across a 30,000+ subdomain college web ecosystem by replacing a manual audit workflow with a repeatable automated status-classification process.}
+\resumeItemListEnd
+
+\resumeSubheading
+  {Foundation of California Community Colleges}{July 2025 -- March 2026}
+  {Research Intern}{Remote, California}
+\resumeItemListStart
+  \resumeItem{Produced 10+ data visualizations that surfaced student demographic and enrollment trends by analyzing Chancellor’s Office data in Microsoft Excel with a team of 6 interns.}
+  \resumeItem{Resolved 20+ Jira tickets by prioritizing requests, clarifying requirements, and improving on-time completion across team workflows.}
+
+\resumeItemListEnd
+
+\resumeSubheading
+  {Outamation}{February 2025 -- April 2025}
+  {Extern}{Remote, California}
+\resumeItemListStart
+  \resumeItem{Built a Python-based RAG pipeline using Ollama and the Gemini API to answer questions over uploaded mortgage and lease documents, reducing manual document lookup.}
+  \resumeItem{Improved retrieval quality by fine-tuning chunking and embedding parameters, increasing answer relevance and reducing latency.}
+\resumeItemListEnd
+
+
+\resumeSubHeadingListEnd
+
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading{Documentation Assessment Tool}{TypeScript, JavaScript, CSS}
+
+\resumeItemListStart
+  \resumeItem{Developed a documentation assessment tool that ingested team documentation and generated reports and dashboards to identify outdated content and prioritize updates.}
+  \resumeItem{Deployed the application on Vercel, creating a live workflow for documentation review and maintenance.}
+\resumeItemListEnd
+
+\resumeProjectHeading{One Itinerary Booking Platform}{JavaScript, HTML, CSS}
+
+\resumeItemListStart
+  \resumeItem{Built a booking platform that enabled users to manage multi-leg trips in a single itinerary, simplifying travel planning across multiple companies.}
+  \resumeItem{Deployed the application on Vercel for live access, testing, and iteration.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd  
+
+%-----------EXTRACURRICULARS-----------
+\section{Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, JavaScript, TypeScript, SQL, Java, C, C++, HTML, CSS} \\
+     \textbf{Frameworks/Technologies}{: React.js, Next.js, Node.js, Tailwind CSS, SCSS } \\
+     \textbf{Technologies/Frameworks}{: Git, GitHub, Unix, Jira, Jupyter Notebook, VS Code, IntelliJ, Vite} \\
+    }}
+ \end{itemize}
+
+
+\end{document}
