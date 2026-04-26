@@ -189,21 +189,21 @@ github.com/adrian-1-cardona
 \section{Projects}
 \resumeSubHeadingListStart
 
-\resumeProjectHeading{Documentation Assessment Tool}{TypeScript, JavaScript, CSS}
+\resumeProjectHeading{Documentation Assessment Tool $|$ \href{https://doc-pulse.vercel.app}{Live Demo}}{TypeScript, JavaScript, CSS}
 
 \resumeItemListStart
   \resumeItem{Developed a documentation assessment tool that ingested team documentation and generated reports and dashboards to identify outdated content and prioritize updates.}
   \resumeItem{Deployed the application on Vercel, creating a live workflow for documentation review and maintenance.}
 \resumeItemListEnd
 
-\resumeProjectHeading{One Itinerary Booking Platform}{JavaScript, HTML, CSS}
+\resumeProjectHeading{One Itinerary Booking Platform $|$ \href{https://onebook-iota.vercel.app}{Live Demo}}{JavaScript, HTML, CSS}
 
 \resumeItemListStart
   \resumeItem{Built a booking platform that enabled users to manage multi-leg trips in a single itinerary, simplifying travel planning across multiple companies.}
   \resumeItem{Deployed the application on Vercel for live access, testing, and iteration.}
 \resumeItemListEnd
 
-\resumeSubHeadingListEnd  
+\resumeSubHeadingListEnd
 
 %-----------EXTRACURRICULARS-----------
 \section{Skills}
