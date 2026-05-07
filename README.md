@@ -3,7 +3,7 @@
 This repository contains a LaTeX template for a professional software engineer resume that I have personally used to secure numerous interviews. This template is designed to highlight technical skills, project experience, and achievements in a clean and organized format.
 
 ## last updated 
-April 25/2026
+May 7th, 2026
 ## Overview
  
 ### Features
