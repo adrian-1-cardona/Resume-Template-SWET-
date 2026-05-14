@@ -82,7 +82,7 @@
 \newcommand{\resumeSubheading}[4]{
   \item
   \textbf{#1}\hfill \textbf{\small #2}\\
-  \textit{\small #3}\hfill \textit{\small #4}
+  {\small #3}\hfill {\small #4}
 }
 
 \newcommand{\resumeSubSubheading}[2]{
@@ -135,22 +135,12 @@ github.com/adrian-1-cardona
     \resumeSubheading
       {California Polytechnic State University San Luis Obispo}{September 2025 -- May 2027}
       {Bachelor of Science in Computer Science}{San Luis Obispo, California}
-    
-       \resumeItemListStart
-  \resumeItem{\textbf{GPA: 3.5/4.0} }
-\resumeItemListEnd
+      \\[-1pt]
+    {\small \textbf{GPA: 3.5 / 4.0}}\\[-1pt]
+    {\small \textbf{Relevant Coursework:} Systems Programming in C, Database Systems in SQL, Computer Security, Design \& Analysis of Algorithms}
 
   \resumeSubHeadingListEnd
   
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Los Angeles Harbor College}{June 2023 -- June 2025}
-      {Associate of Science in Computer Science}{Los Angeles, California}
-      \resumeItemListStart
-  \resumeItem{\textbf{GPA: 3.7/4.0} }
-    \resumeItemListEnd
-  \resumeSubHeadingListEnd
-
 
 %-----------EXPERIENCE-----------
 \section{Experience}
@@ -165,7 +155,7 @@ github.com/adrian-1-cardona
 
 \resumeSubheading
   {Foundation of California Community Colleges}{July 2025 -- March 2026}
-  {Research Intern}{Remote, California}
+  {Research Intern}{Los Angeles, California}
 \resumeItemListStart
   \resumeItem{Produced 10+ data visualizations that surfaced student demographic and enrollment trends by analyzing Chancellor’s Office data in Microsoft Excel with a team of 6 interns.}
   \resumeItem{Resolved 20+ Jira tickets by prioritizing requests, clarifying requirements, and improving on-time completion across team workflows.}
@@ -174,7 +164,7 @@ github.com/adrian-1-cardona
 
 \resumeSubheading
   {Outamation}{February 2025 -- April 2025}
-  {Extern}{Remote, California}
+  {Extern}{Los Angeles, California}
 \resumeItemListStart
   \resumeItem{Built a Python-based RAG pipeline using Ollama and the Gemini API to answer questions over uploaded mortgage and lease documents, reducing manual document lookup.}
   \resumeItem{Improved retrieval quality by fine-tuning chunking and embedding parameters, increasing answer relevance and reducing latency.}
@@ -189,6 +179,16 @@ github.com/adrian-1-cardona
 \section{Projects}
 \resumeSubHeadingListStart
 
+
+
+\resumeProjectHeading{SatellitePass $|$ \href{https://github.com/adrian-1-cardona/satellitepredictiontracker}{Source Code}}{{Python}, TypeScript, JavaScript}
+
+\resumeItemListStart
+  \resumeItem{Built an app that predicts when satellites like the ISS will pass over your location by processing real-time orbital data for 1,000+ satellites with React, Python, and a PostgreSQL database, includes secure login so each user only sees their own data}
+  \resumeItem{Set up automated systems to monitor the app's health using Prometheus metrics and Grafana dashboards, plus automated testing (79 tests) and GitHub Actions to catch problems before users see them.}
+  % Ensuring the app stays reliable even when thousands of people use it at once.
+\resumeItemListEnd
+
 \resumeProjectHeading{Documentation Assessment Tool $|$ \href{https://doc-pulse.vercel.app}{Live Demo}}{TypeScript, JavaScript, CSS}
 
 \resumeItemListStart
@@ -196,22 +196,15 @@ github.com/adrian-1-cardona
   \resumeItem{Deployed the application on Vercel, creating a live workflow for documentation review and maintenance.}
 \resumeItemListEnd
 
-\resumeProjectHeading{One Itinerary Booking Platform $|$ \href{https://onebook-iota.vercel.app}{Live Demo}}{JavaScript, HTML, CSS}
-
-\resumeItemListStart
-  \resumeItem{Built a booking platform that enabled users to manage multi-leg trips in a single itinerary, simplifying travel planning across multiple companies.}
-  \resumeItem{Deployed the application on Vercel for live access, testing, and iteration.}
-\resumeItemListEnd
-
 \resumeSubHeadingListEnd
 
-%-----------EXTRACURRICULARS-----------
+%-----------SKILLS-----------
 \section{Skills}
- \begin{itemize}[leftmargin=0.15in, label={}]
+ \begin{itemize}[leftmargin=0in, label={}]
     \small{\item{
      \textbf{Languages}{: Python, JavaScript, TypeScript, SQL, Java, C, C++, HTML, CSS} \\
-     \textbf{Frameworks/ Technologies}{: React.js, Next.js, Node.js, Tailwind CSS, SCSS } \\
-     \textbf{Technologies/ Frameworks}{: Git, GitHub, Unix, Jira, Jupyter Notebook, VS Code, IntelliJ, Vite} \\
+     \textbf{Frameworks \& Libraries}{: React.js, Next.js, Node.js, Tailwind CSS, FastAPI, Vite} \\
+     \textbf{Tools \& Platforms}{: Git, GitHub, Docker, PostgreSQL, Unix, Jira, Jupyter Notebook, VS Code, IntelliJ} \\
     }}
  \end{itemize}
 
